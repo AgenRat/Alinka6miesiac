@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dla Alinki ❤️</title>
+<style>
+:root{--bg1:#fff1f5;--bg2:#ffc4d6;--ink:#5a2a3c;--card:#fffafc;--acc:#e5383b;--soft:#c9657f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#2a1620;--bg2:#4a2234;--ink:#ffe3ec;--card:#3a1c29;--acc:#ff6b81;--soft:#ff9db1}}
+:root[data-theme="dark"]{--bg1:#2a1620;--bg2:#4a2234;--ink:#ffe3ec;--card:#3a1c29;--acc:#ff6b81;--soft:#ff9db1}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:linear-gradient(160deg,var(--bg1),var(--bg2));display:flex;justify-content:center}
+main{width:100%;max-width:560px;padding:28px 20px 40px}
+.bar{height:5px;background:rgba(0,0,0,.08);border-radius:9px;margin-bottom:28px}
+.bar i{display:block;height:100%;width:0;background:var(--acc);border-radius:9px;transition:width .5s}
+section{display:none;animation:in .5s}section.on{display:block}
+@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+small{color:var(--soft);font-style:italic}
+h1{font-size:2.3rem;line-height:1.1;margin:.3em 0}
+p{line-height:1.6}
+.btns{display:flex;gap:14px;align-items:center;min-height:70px;position:relative;flex-wrap:wrap}
+button{font:inherit;border:0;cursor:pointer;border-radius:999px;padding:13px 22px;font-size:1rem}
+.yes{background:var(--acc);color:#fff}
+.no{background:var(--card);color:var(--ink);border:1px solid var(--soft);transition:transform .25s}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.c{background:var(--card);border:2px solid transparent;border-radius:18px;padding:16px;text-align:left;color:var(--ink);font-size:.95rem;border-radius:18px;line-height:1.35}
+.c b{display:block;font-size:1.05rem;margin-bottom:6px}
+.c.open{border-color:var(--acc)}
+.c span{display:none;color:var(--soft);font-size:.88rem}
+.c.open span{display:block}
+.letter{background:var(--card);border-radius:18px;padding:20px;max-height:62vh;overflow-y:auto;font-size:1rem}
+.letter p{margin:0 0 1em}
+.next{margin-top:18px;background:var(--ink);color:var(--bg1)}
+.heart{position:fixed;bottom:-30px;animation:up 5s linear forwards;pointer-events:none}
+@keyframes up{to{transform:translateY(-110vh)}}
+</style></head><body>
+<main>
+<div class="bar"><i id="p"></i></div>
+
+<section class="on">
+<small>ekhm, ważna sprawa…</small>
+<h1>Alinka, mam dla Ciebie coś specjalnego ❤️</h1>
+<p>Zrobiłem tę małą stronkę, bo zwykły tekst wydawał mi się zbyt zwyczajny. Czy to dobry moment, żebym zaczął?</p>
+<div class="btns" id="bt"><button class="yes" onclick="go(1)">Tak, oczywiście</button><button class="no" id="no">Nie</button></div>
+</section>
+
+<section>
+<small>małe wspomnienia</small>
+<h1>Dwudziesty siódmy maj</h1>
+<p>Pół roku. Kliknij karty i zobacz, co mi chodzi po głowie.</p>
+<div class="grid">
+<button class="c"><b>🛴 Hulajnoga i huśtawka</b><span>Dwie godziny na jednej huśtawce, gdzie opowiadałaś mi o sobie i swoim życiu.</span></button>
+<button class="c"><b>🍕 Pizza</b><span>Ta w kształcie, no wiesz, XDDD. Przeszła do historii.</span></button>
+<button class="c"><b>🛖 Altanki</b><span>Pięć godzin gadania o wszystkim i o niczym.</span></button>
+<button class="c"><b>🎬 Kino</b><span>Spider-Man, choć z początku chcieliśmy iść na Minionki.</span></button>
+</div>
+<button class="next" onclick="go(2)">Dalej</button>
+</section>
+
+<section>
+<small>list od Krzysztofa</small>
+<h1>Pół roku razem</h1>
+<div class="letter">
+<p>No dobra, Alinka, skoro już tutaj jesteś, to chyba mogę zacząć XDDD ❤️</p>
+<p>Wszystkiego najlepszego z okazji naszych PÓŁ ROKU RAZEM, skarbie. ❤️❤️❤️</p>
+<p>Kurde, pół roku. Jak ja się nad tym zastanawiam, to trochę ciężko mi uwierzyć, że minęło już sześć miesięcy, odkąd jesteśmy razem. Z jednej strony to niby tylko pół roku, a z drugiej strony tyle rzeczy się w tym czasie wydarzyło, że mógłbym chyba napisać o tym jakąś książkę. I to jeszcze z kilkoma rozdziałami, bo niektóre nasze akcje zdecydowanie na to zasługują XDDD.</p>
+<p>Ale chyba najlepiej będzie zacząć od samego początku. Pamiętasz, jak się poznaliśmy? Obok McDonalda, naprzeciwko starostwa, gdzie wszyscy normalnie się przywitali, a ja wyskoczyłem z moim legendarnym „Krzysztof jestem” XDDD.</p>
+<p>Do teraz mnie trochę bawi, że akurat to zapadło Ci w pamięć. Nie wiem, co ja sobie wtedy myślałem, ale najwyraźniej uznałem, że należy przedstawić się w taki właśnie sposób. I proszę bardzo, teraz po pół roku piszę Ci życzenia, robię Ci origami Pusheena i zastanawiam się, jakim cudem ta jedna znajomość stała się dla mnie aż tak ważna. I szczerze? Bardzo się cieszę, że wtedy się poznaliśmy. ❤️</p>
+<p>Bo gdyby nie to, nie byłoby tych wszystkich rzeczy, które teraz możemy wspominać. Nie byłoby naszego pierwszego wspólnego przejazdu na hulajnodze, a potem tych około dwóch godzin na jednej huśtawce, podczas których opowiadałaś mi o sobie. Nie byłoby też tego spotkania w parku, kiedy siedziałaś mi na kolankach, a pod koniec mnie pocałowałaś. I nie wiem, czy Ty wtedy zdawałaś sobie sprawę, co się działo w mojej głowie, ale ja byłem dosłownie w innym świecie XDDD. ❤️</p>
+<p>Pamiętam zakończenie roku, kiedy moja mama zobaczyła nas razem po raz pierwszy. Pamiętam nasze pierwsze spotkania w altance w Parchowie i tę małą altankę w Bytowie, w której spędzaliśmy po kilka godzin, po prostu rozmawiając, zanim Ty pierwszy raz przyszłaś do mnie.</p>
+<p>I wiesz, co jest w tym wszystkim fajne? Że nie musieliśmy za każdym razem robić czegoś niesamowitego. Czasami wystarczyło nam po prostu siedzieć obok siebie i gadać przez pięć godzin o wszystkim i o niczym. A Ty stałaś się osobą, z którą takich wspomnień mam już naprawdę dużo. ❤️</p>
+<p>Nie mogę pominąć naszej pierwszej wspólnej pizzy, szczególnie tej zajebistej pizzy w kształcie chuja XDDD. Uwielbiam to, że mamy też takie wspomnienia, przy których można się śmiać jak debile. Tak samo jak Twoje zawody strażackie, na których zaliczyłaś glebę XDDD (mam nadzieję, że nic Ci się wtedy nie stało). Albo nasza pierwsza akcja z policją na hulajnodze, kiedy prawie skończyło się mandatem. A potem moja hulajka, która postanowiła się rozjebać, i Ty, która wjechałaś mi w koła i zostawiłaś mi pamiątkę na ciele chyba na całe życie XDDD.</p>
+<p>Pamiętam też, jak pierwszy raz jadłem u Ciebie obiadek, który mi zrobiłaś. Nasze wyjście nad jeziorko, a potem nad morze z Twoimi rodzicami. Studzienice, kiedy byłaś chora i się bałaś. Mam nadzieję, że czułaś wtedy, że możesz na mnie liczyć. Kino na Spider-Mana, mimo że z początku chcieliśmy iść na Minionki XDDD. Królika albo zająca, którego spotkaliśmy w Twojej podstawówce. Dni Bytowa, dożynki, osiemnastkę Wojtusia, na której prawie wygrałaś konkurs, i nasz koncert w Gdańsku, na którym oczywiście musiał pojawić się problem z biletami.</p>
+<p>Były wspólne gierki, nasze rozmowy i chwile, kiedy tłumaczyłem Ci matematykę, i pewnie robiłem to jak jakiś debil XDDD. Ale nawet to lubię. Dlatego tak trudno byłoby mi wybrać jedno ulubione wspomnienie. Jedne są śmieszne, inne słodkie, a jeszcze inne po prostu ważne. I wszystkie składają się na te nasze pierwsze sześć miesięcy. ❤️</p>
+<p>Ale dobra, koniec wspominania, bo jeszcze pomyślisz, że zrobiłem Ci prezent w postaci rozprawki z historii naszego związku XDDD. Chociaż tak szczerze, mógłbym pisać jeszcze długo.</p>
+<p>Lubię z Tobą rozmawiać. Lubię się z Tobą śmiać. Lubię spędzać z Tobą czas, nawet kiedy nie robimy nic szczególnego. Lubię to, że mogę poznawać Cię coraz bardziej, i chcę poznawać Cię dalej. Nie tylko tę część Ciebie, którą widzę na co dzień, ale też te rzeczy, o których może nie zawsze łatwo Ci mówić. Chcę umieć Cię słuchać, wspierać Cię i być kimś, przy kim możesz czuć się swobodnie.</p>
+<p>Nie obiecuję, że każdy dzień będzie idealny. Czasami coś nam nie wyjdzie, czasami będziemy mieli gorszy humor albo nie będziemy się zgadzać. Ale chciałbym, żebyśmy zawsze próbowali się rozumieć, rozmawiać i pamiętać, że jesteśmy po tej samej stronie. Bo naprawdę mi na Tobie zależy, Alinka.</p>
+<p>Nie wiem, czy zawsze potrafię to pokazać tak dobrze, jak bym chciał. Czasami mówię głupoty, czasami zachowuję się jak debil, a czasami nie wiem, jak ubrać coś w słowa. Ale dzisiaj chciałem spróbować. Dlatego powstał ten Pusheen, dlatego chowam tutaj ten link i dlatego piszę Ci taki długi tekst. Może nie jest to najdroższy prezent na świecie, a sam Pusheen nie wygra konkursu na najbardziej profesjonalne origami XDDD. Ale zrobiłem go własnymi rękami i z myślą o Tobie.</p>
+<p>Mam nadzieję, że kiedyś, nawet za długi czas, spojrzysz na niego i przypomnisz sobie nasze pierwsze pół roku. Huśtawkę, altanki, pizzę, wycieczki i wszystkie głupoty, które razem odwalaliśmy. Może się uśmiechniesz i pomyślisz, że naprawdę sporo się wydarzyło.</p>
+<p>Chciałbym przeżyć z Tobą jeszcze wiele pierwszych razy. Pierwszych wspólnych miejsc, wycieczek i tych wszystkich zwykłych dni, które z czasem staną się dla nas czymś wyjątkowym. Dziękuję Ci za te sześć miesięcy, za Twój czas, za Twoją obecność i za to, że mogę być Twoim chłopakiem.</p>
+<p><b>Kocham Cię, Alinka. Naprawdę bardzo. ❤️</b></p>
+<p>Wszystkiego najlepszego z okazji naszych pół roku razem, skarbie. Mam nadzieję, że to dopiero początek naszej wspólnej historii. Dziękuję, że jesteś. ❤️</p>
+<p>Twój Krzysztof.<br>PS. Tak, nadal jestem Krzysztof jestem XDDD ❤️</p>
+</div>
+<button class="next" onclick="go(3)">Dalej</button>
+</section>
+
+<section>
+<small>oficjalne potwierdzenie</small>
+<h1>Zrobiłaś mnie bardzo szczęśliwym 🥹</h1>
+<p>Dziękuję za pierwsze pół roku. A teraz najważniejsze pytanie: czy bierzesz kolejne pół roku?</p>
+<div class="btns" id="bt2"><button class="yes" onclick="hearts()">Biorę! ❤️</button><button class="no" id="no2">Nie</button></div>
+<p id="fin" style="display:none"><b>Wiedziałem. Kocham Cię, Alinka. ❤️</b></p>
+</section>
+</main>
+<script>
+var cur=0,S=document.querySelectorAll("section");
+function go(i){S[cur].classList.remove("on");cur=i;S[i].classList.add("on");document.getElementById("p").style.width=(i+1)*25+"%";window.scrollTo(0,0)}
+document.getElementById("p").style.width="25%";
+document.querySelectorAll(".c").forEach(function(c){c.onclick=function(){c.classList.toggle("open")}});
+function run(id){var b=document.getElementById(id);function m(e){e.preventDefault();b.style.transform="translate("+(Math.random()*160-80)+"px,"+(Math.random()*90-45)+"px)"}b.addEventListener("pointerenter",m);b.addEventListener("click",m)}
+run("no");run("no2");
+function hearts(){document.getElementById("fin").style.display="block";for(var i=0;i<30;i++){(function(i){setTimeout(function(){var h=document.createElement("div");h.className="heart";h.textContent="❤️";h.style.left=Math.random()*95+"vw";h.style.fontSize=(18+Math.random()*26)+"px";document.body.appendChild(h);setTimeout(function(){h.remove()},5200)},i*120)})(i)}}
+</script>
+</body></html>
